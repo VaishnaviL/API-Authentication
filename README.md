@@ -1,4 +1,4 @@
-# 🔐 FastAPI Authentication and Role-Based Authorization System
+# FastAPI Authentication and Role-Based Authorization System
 
 A secure and modular authentication and authorization system built with **FastAPI**, using **OAuth2 + JWT tokens**, and role-based access control.
 
@@ -11,6 +11,14 @@ This project provides:
 - Streamlit frontend integration
 
 ---
+
+![image](https://github.com/user-attachments/assets/b6ff976b-0c2a-4dc3-b621-28df9d18b425)
+
+![image](https://github.com/user-attachments/assets/f3c6b117-e3e2-44e1-a36c-9bdc3b6faca3)
+
+![image](https://github.com/user-attachments/assets/cac585f0-8de9-4537-8773-4556d53dea59)
+
+![image](https://github.com/user-attachments/assets/185ae31a-5cbd-418d-adc0-67c87c68bde0)
 
 ## 📁 Project Structure
 
