@@ -1,14 +1,26 @@
-# API-Authentication
+# 🔐 FastAPI Authentication and Role-Based Authorization System
 
-## Flow
+A secure and modular authentication and authorization system built with **FastAPI**, using **OAuth2 + JWT tokens**, and role-based access control.
 
-## Backend ->
-### signup() -> checks if username exits, adds new user -> redirects to login page after success
+This project provides:
+- User Signup and Login
+- JWT-based Token Authentication
+- Role-based access control (Admin, User, Auditor, etc.)
+- Password hashing using Bcrypt
+- Password Reset via email (Tokenized link)
+- Streamlit frontend integration
 
-### Login() -> verifies password and user , creates new access token -> redirects to profile page on success
-### forgot_password() -> takes username, email and sends a reset link to email
-### reset_password() -> resets the password to new, redirects to login page after reset
-### home() -> basic home page with singup and login options
-if user is logged In, only logout visible on home, otherwise both login and signup visible
-### profile() -> shows user data 
+---
 
+## 📁 Project Structure
+
+```bash
+.
+├── main.py                  # FastAPI app entry point
+├── authen.py               # Authentication & Authorization logic
+├── models.py               # Pydantic models (User, Token, etc.)
+├── database.py             # Mock user storage and helper methods
+├── utils.py                # Token utils, hashing, constants
+├── streamlit_app.py        # Streamlit client for interacting with API
+├── requirements.txt
+└── README.md
