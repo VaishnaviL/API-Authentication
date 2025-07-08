@@ -1,0 +1,50 @@
+[
+    {
+        "john": {
+            "username": "john",
+            "full_name": "John Doe",
+            "email": "john@example.com",
+            "hashed_password": "$2b$12$rxk9VQuk622MsMhIocwTuuwKwoCosb/ly5oSlq4UrBu9i6Z6yR0Fe",
+            "disabled": "False",
+            "role": "admin"
+        },
+        "jane": {
+            "username": "jane",
+            "full_name": "Jane Smith",
+            "email": "jane@example.com",
+            "hashed_password": "$2b$12$AkhSc/Z7q.1BA5DbFFd0V.TbPnPNrIwvpwtIUzzFCnshpVmT1rt0q",
+            "disabled": "False",
+            "role": "user"
+        },
+        "johnny": {
+            "username": "johnny",
+            "email": "john@gmail.com",
+            "full_name": "johny",
+            "role": "user",
+            "hashed_password": "$2b$12$N44.Fe3PNFzzag3HFblTeOQYUUR15GgcL.BJs.s7RxI2cr6u/nXBa"
+        },
+        "gigi": {
+            "username": "gigi",
+            "email": "",
+            "full_name": "gigi",
+            "role": "user",
+            "hashed_password": "$2b$12$P7rfbLCiCLwUfGw780J3XeSUkNTAQmoUWtCJBe7tVgSoyivvM/Fai"
+        },
+        "charles": {
+            "username": "charles",
+            "email": "charles@gmail.com",
+            "full_name": "leclec",
+            "role": "user",
+            "disabled": false,
+            "hashed_password": "$2b$12$mtiYw3m9fnz9DZ7WpHG3K.plgAhYafQH75IAFS3VWSh3GODPGa8OS"
+        },
+        "gene": {
+            "username": "gene",
+            "email": "gene@gmail.com",
+            "full_name": "he",
+            "role": "user",
+            "disabled": false,
+            "hashed_password": "$2b$12$mHfFP7VxRvQWOdsxLTJQIOeXfu59FigUMJjmAeAZqUIDrj2oE3qUy"
+        }
+    }
+]
